@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^(home|category|comment|index|course|addpacks|addcategory|editcourse|editcategory|login|push|comment|comment-reply|editauthor|addpublisher|lecture|author|addauthor|quiz|addquiz|editquiz|editlecture|package|addpackage|editpackage|addcourse|badge|addbadge|editbadge|user|edituser|sendinfo|editinfo)$ $1.php [NC,L]
